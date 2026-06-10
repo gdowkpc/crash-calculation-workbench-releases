@@ -2,16 +2,16 @@
   "app": "Crash Calculation Workbench",
   "version": "0.9.0-rc.2",
   "channel": "prerelease",
-  "published_at": "2026-06-10T22:42:45Z",
+  "published_at": "2026-06-10T22:51:53Z",
   "minimum_supported_version": "0.1.0",
   "release_notes_summary": "Crash Calculation Workbench 0.9.0-rc.2 prerelease build.",
   "notes": [
     "\ufeff# Crash Calculation Workbench 0.9.0-rc.2",
     "Channel: prerelease",
-    "Source commit: cd74ce27c977fd31eb3ab5345309fdd20e888f2b",
-    "Build timestamp: 2026-06-10 22:42:45 UTC",
+    "Source commit: 449552ea365aad2129d3c70754a814f041633747",
+    "Build timestamp: 2026-06-10 22:51:53 UTC",
     "Artifact: CrashCalculationWorkbench-0.9.0-rc.2-portable.zip",
-    "SHA-256: 15409c9707e3c7d4c9bdf6b00404fc03004cb04fcd6b6dac2aba8bcba07942bf",
+    "SHA-256: 5055acdee2e2da7cc8fcd51f63b256b2f50fb5a74a853f0d0972176076913068",
     "Release-candidate build for manual testing.",
     "Confirm Vehicle Data, VIN/Vehicle Intelligence, Daily friction, PDF export, and About/Updates workflows before promotion.",
     "This release-only artifact must be uploaded to the public release-only repository, not the private source repository.",
@@ -19,15 +19,15 @@
   ],
   "release_page_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/tag/v0.9.0-rc.2",
   "build_label": "",
-  "build_commit": "cd74ce27c977fd31eb3ab5345309fdd20e888f2b",
+  "build_commit": "449552ea365aad2129d3c70754a814f041633747",
   "assets": [
     {
       "platform": "windows",
       "architecture": "x64",
       "filename": "CrashCalculationWorkbench-0.9.0-rc.2-portable.zip",
       "browser_download_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/download/v0.9.0-rc.2/CrashCalculationWorkbench-0.9.0-rc.2-portable.zip",
-      "size": 144296998,
-      "sha256": "15409c9707e3c7d4c9bdf6b00404fc03004cb04fcd6b6dac2aba8bcba07942bf",
+      "size": 144296280,
+      "sha256": "5055acdee2e2da7cc8fcd51f63b256b2f50fb5a74a853f0d0972176076913068",
       "artifact_type": "portable"
     }
   ]
