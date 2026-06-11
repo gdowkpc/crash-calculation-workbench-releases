@@ -1,32 +1,32 @@
 {
   "app": "Crash Calculation Workbench",
-  "version": "0.1.0-github-test.1",
+  "version": "0.1.1-github-test.1",
   "channel": "prerelease",
-  "published_at": "2026-06-11T19:26:40Z",
+  "published_at": "2026-06-11T19:32:51Z",
   "minimum_supported_version": "0.1.0",
-  "release_notes_summary": "Crash Calculation Workbench 0.1.0-github-test.1 prerelease build.",
+  "release_notes_summary": "Crash Calculation Workbench 0.1.1-github-test.1 prerelease build.",
   "notes": [
-    "# Crash Calculation Workbench 0.1.0-github-test.1",
+    "# Crash Calculation Workbench 0.1.1-github-test.1",
     "Channel: prerelease",
     "Source commit: 3793bcd562dee662326f1e2efd5b34049df761c7",
-    "Artifact: CrashCalculationWorkbench-0.1.0-github-test.1-portable.zip",
-    "SHA-256: 6cd1ff7a71d718cd23837ed1f9b76c7d185f224b3ee6516090ff6207b53247bd",
+    "Artifact: CrashCalculationWorkbench-0.1.1-github-test.1-portable.zip",
+    "SHA-256: 3bd242456ad335e6d5200c7d65b1610599fb1e2cc04e7ca8e5ab67adab23b77f",
     "Release-candidate build for manual testing.",
     "Confirm Vehicle Data, VIN/Vehicle Intelligence, Daily friction, PDF export, and About/Updates workflows before promotion.",
     "This release-only artifact must be uploaded to the public release-only repository, not the private source repository.",
     "Do not upload source archives, source trees, CVS/NHTSA downloaded datasets, private keys, or local caches."
   ],
-  "release_page_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/tag/v0.1.0-github-test.1",
+  "release_page_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/tag/v0.1.1-github-test.1",
   "build_label": "",
   "build_commit": "3793bcd562dee662326f1e2efd5b34049df761c7",
   "assets": [
     {
       "platform": "windows",
       "architecture": "x64",
-      "filename": "CrashCalculationWorkbench-0.1.0-github-test.1-portable.zip",
-      "browser_download_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/download/v0.1.0-github-test.1/CrashCalculationWorkbench-0.1.0-github-test.1-portable.zip",
-      "size": 144326018,
-      "sha256": "6cd1ff7a71d718cd23837ed1f9b76c7d185f224b3ee6516090ff6207b53247bd",
+      "filename": "CrashCalculationWorkbench-0.1.1-github-test.1-portable.zip",
+      "browser_download_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/download/v0.1.1-github-test.1/CrashCalculationWorkbench-0.1.1-github-test.1-portable.zip",
+      "size": 144325299,
+      "sha256": "3bd242456ad335e6d5200c7d65b1610599fb1e2cc04e7ca8e5ab67adab23b77f",
       "artifact_type": "portable"
     }
   ]
