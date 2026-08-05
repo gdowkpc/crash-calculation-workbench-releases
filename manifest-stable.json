@@ -1,0 +1,37 @@
+{
+  "app": "Crash Calculation Workbench",
+  "version": "0.2.0",
+  "channel": "stable",
+  "published_at": "2026-08-05T18:40:12Z",
+  "minimum_supported_version": "0.1.0",
+  "release_notes_summary": "Crash Calculation Workbench 0.2.0 stable release.",
+  "notes": [
+    "Channel: stable",
+    "Source commit: ff2bb010961cd85804923126d638c4d1c8407051",
+    "Build timestamp: 2026-08-05 18:38:42 UTC",
+    "Artifact: CrashCalculationWorkbench-0.2.0-portable.zip",
+    "SHA-256: 25ebf2188ef5e1b93c65200e6cd99685b016d4345a2103530a0d5ea0913f5107",
+    "Critical Speed Yaw now accepts either a direct curve radius in feet or a radius derived from chord and middle ordinate.",
+    "The calculator applies signed superelevation to the lateral factor, with positive banking toward the curve center and negative adverse banking.",
+    "Existing chord/middle-ordinate case data remains compatible, and Show Work identifies the active radius source and adjusted factor.",
+    "Full automated suite: 812 passed from the merged release commit.",
+    "Release-path checks: 77 passed.",
+    "The portable package was built from the merged private `main` commit with the bundled ffprobe runtime verified.",
+    "This release contains only the compiled portable application, checksum, release notes, and update manifest in the public release-only repository.",
+    "It does not publish application source, source history, CVS/NHTSA data, local caches, private keys, or case material."
+  ],
+  "release_page_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/tag/v0.2.0",
+  "build_label": "v0.2.0 | stable | release | ff2bb01 | 2026-08-05 18:38:42 UTC",
+  "build_commit": "ff2bb010961cd85804923126d638c4d1c8407051",
+  "assets": [
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "filename": "CrashCalculationWorkbench-0.2.0-portable.zip",
+      "browser_download_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/download/v0.2.0/CrashCalculationWorkbench-0.2.0-portable.zip",
+      "size": 145335564,
+      "sha256": "25ebf2188ef5e1b93c65200e6cd99685b016d4345a2103530a0d5ea0913f5107",
+      "artifact_type": "portable"
+    }
+  ]
+}
