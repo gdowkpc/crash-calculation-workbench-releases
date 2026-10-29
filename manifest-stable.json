@@ -1,29 +1,33 @@
 {
   "app": "Crash Calculation Workbench",
-  "version": "0.9.12",
+  "version": "0.9.13",
   "channel": "stable",
-  "published_at": "2026-10-29T20:47:23Z",
+  "published_at": "2026-10-29T21:40:01Z",
   "minimum_supported_version": "0.1.0",
-  "release_notes_summary": "Stable 0.9.12 improves Super Pedestrian results and method output presentation.",
+  "release_notes_summary": "Stable 0.9.13 adds Standard Searle and updates Super Pedestrian results presentation.",
   "notes": [
-    "Super Pedestrian results show all eight method rows with clearer result formatting.",
-    "Results can be exported as a PDF or a text table; Show Work is grouped by method.",
-    "No reconstruction formula or numerical method changed. The off-axis method remains marked \"Experimental - physical validation pending; not qualified for casework use.\"",
-    "The package retains the approved 22 public reference/guidance documents with their existing bytes; internal-only material remains excluded.",
-    "Filename: CrashCalculationWorkbench-0.9.12-portable.zip",
-    "SHA-256: b9d5fbd971140d8ff67788ce566174591d8a4d0017b2ce26e16a40b8486df5f2"
+    "Adds the Standard Searle workflow using the canonical Searle Classic calculation routine. The workflow accepts an explicit carry, including zero, and the collision angle; a missing required angle or carry is reported as insufficient input.",
+    "Adds the Standard Searle workflow to the calculator registry and results flow while preserving the existing Searle Classic calculation.",
+    "Super Pedestrian Results presents the method rows in a vertically scrollable results area and clarifies excluded-method wording.",
+    "Existing unit conversions and assumptions are carried through the Standard Searle workflow. No change was made to the canonical Searle Classic calculation.",
+    "The package retains the approved set of 22 public reference documents with exact bytes; internal-only documents remain excluded.",
+    "Source regression checks passed for the approved Standard Searle workflow and Super Pedestrian presentation changes.",
+    "This candidate was built from the verified 0.9.12 source snapshot plus the approved four application files and stable release metadata. Frozen-module comparison is recorded in the candidate verification receipt.",
+    "Packaged startup, calculator input/result behavior, updater discovery, local deployment and anonymous public asset checks are recorded in the release evidence.",
+    "Filename: CrashCalculationWorkbench-0.9.13-portable.zip",
+    "SHA-256: e68ad8e7499e5ce08ca4b6260eeaf86bd7b6877c3791955cc57d9e7a4315cd2c"
   ],
-  "release_page_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/tag/v0.9.12",
-  "build_label": "v0.9.12 | stable | release | source 20fc45e-dirty | 2026-10-29 20:45:53 UTC",
-  "build_commit": "20fc45e-dirty",
+  "release_page_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/tag/v0.9.13",
+  "build_label": "v0.9.13 | stable | release | source 20fc45ea5032-dirty | 2026-10-29 21:35:54 UTC",
+  "build_commit": "20fc45ea5032-dirty",
   "assets": [
     {
       "platform": "windows",
       "architecture": "x64",
-      "filename": "CrashCalculationWorkbench-0.9.12-portable.zip",
-      "browser_download_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/download/v0.9.12/CrashCalculationWorkbench-0.9.12-portable.zip",
-      "size": 143904686,
-      "sha256": "b9d5fbd971140d8ff67788ce566174591d8a4d0017b2ce26e16a40b8486df5f2",
+      "filename": "CrashCalculationWorkbench-0.9.13-portable.zip",
+      "browser_download_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/download/v0.9.13/CrashCalculationWorkbench-0.9.13-portable.zip",
+      "size": 143909689,
+      "sha256": "e68ad8e7499e5ce08ca4b6260eeaf86bd7b6877c3791955cc57d9e7a4315cd2c",
       "artifact_type": "portable"
     }
   ]
