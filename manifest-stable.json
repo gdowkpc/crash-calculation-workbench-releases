@@ -1,33 +1,30 @@
 {
   "app": "Crash Calculation Workbench",
-  "version": "0.9.13",
+  "version": "0.9.14",
   "channel": "stable",
-  "published_at": "2026-10-29T21:40:01Z",
+  "published_at": "2026-10-29T22:47:55Z",
   "minimum_supported_version": "0.1.0",
-  "release_notes_summary": "Stable 0.9.13 adds Standard Searle and updates Super Pedestrian results presentation.",
+  "release_notes_summary": "Stable 0.9.14 adds GoPro CSV telemetry and braking analysis.",
   "notes": [
-    "Adds the Standard Searle workflow using the canonical Searle Classic calculation routine. The workflow accepts an explicit carry, including zero, and the collision angle; a missing required angle or carry is reported as insufficient input.",
-    "Adds the Standard Searle workflow to the calculator registry and results flow while preserving the existing Searle Classic calculation.",
-    "Super Pedestrian Results presents the method rows in a vertically scrollable results area and clarifies excluded-method wording.",
-    "Existing unit conversions and assumptions are carried through the Standard Searle workflow. No change was made to the canonical Searle Classic calculation.",
-    "The package retains the approved set of 22 public reference documents with exact bytes; internal-only documents remain excluded.",
-    "Source regression checks passed for the approved Standard Searle workflow and Super Pedestrian presentation changes.",
-    "This candidate was built from the verified 0.9.12 source snapshot plus the approved four application files and stable release metadata. Frozen-module comparison is recorded in the candidate verification receipt.",
-    "Packaged startup, calculator input/result behavior, updater discovery, local deployment and anonymous public asset checks are recorded in the release evidence.",
-    "Filename: CrashCalculationWorkbench-0.9.13-portable.zip",
-    "SHA-256: e68ad8e7499e5ce08ca4b6260eeaf86bd7b6877c3791955cc57d9e7a4315cd2c"
+    "Adds **GoPro Import / Braking Analysis** for exported GoPro telemetry CSV files.",
+    "Choose the timestamp and speed columns, confirm time and speed units, optionally map latitude/longitude, and select an inclusive record interval. Clearly labeled headers can suggest a mapping; the selected columns and units remain explicit.",
+    "Time supports elapsed seconds, milliseconds, and ISO8601 timestamps. Speed supports m/s, mph, km/h, and ft/s. The utility imports CSV exports and does not extract telemetry directly from MP4 files.",
+    "Results and Show Work report signed mean acceleration, braking-positive retardation, time-weighted segment retardation, speed-integrated distance, a separately labeled endpoint constant-acceleration estimate, and optional horizontal GPS path length. The interval table is included in copied results and printable Results output.",
+    "Retardation is a speed-change measure, not a tire-road friction coefficient. Speed-integrated distance assumes linear speed change between adjacent samples; horizontal GPS path is separate, excludes elevation, and is unavailable when selected-interval coordinates are incomplete. Samples are not smoothed.",
+    "Filename: CrashCalculationWorkbench-0.9.14-portable.zip",
+    "SHA-256: 86b236cde030b70aceb5d016f3c2d5075d074b606bd5e299958d5d9390a289ce"
   ],
-  "release_page_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/tag/v0.9.13",
-  "build_label": "v0.9.13 | stable | release | source 20fc45ea5032-dirty | 2026-10-29 21:35:54 UTC",
+  "release_page_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/tag/v0.9.14",
+  "build_label": "v0.9.14 | stable | release | source 20fc45ea5032-dirty | 2026-10-29 22:46:19 UTC",
   "build_commit": "20fc45ea5032-dirty",
   "assets": [
     {
       "platform": "windows",
       "architecture": "x64",
-      "filename": "CrashCalculationWorkbench-0.9.13-portable.zip",
-      "browser_download_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/download/v0.9.13/CrashCalculationWorkbench-0.9.13-portable.zip",
-      "size": 143909689,
-      "sha256": "e68ad8e7499e5ce08ca4b6260eeaf86bd7b6877c3791955cc57d9e7a4315cd2c",
+      "filename": "CrashCalculationWorkbench-0.9.14-portable.zip",
+      "browser_download_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/download/v0.9.14/CrashCalculationWorkbench-0.9.14-portable.zip",
+      "size": 143933058,
+      "sha256": "86b236cde030b70aceb5d016f3c2d5075d074b606bd5e299958d5d9390a289ce",
       "artifact_type": "portable"
     }
   ]
