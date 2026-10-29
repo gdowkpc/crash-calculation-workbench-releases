@@ -1,35 +1,29 @@
 {
   "app": "Crash Calculation Workbench",
-  "version": "0.9.11",
+  "version": "0.9.12",
   "channel": "stable",
-  "published_at": "2026-10-29T20:27:09Z",
+  "published_at": "2026-10-29T20:47:23Z",
   "minimum_supported_version": "0.1.0",
-  "release_notes_summary": "Stable 0.9.11 adds expanded VIN vehicle details, optional EPA ratings and unsaved PDF previews.",
+  "release_notes_summary": "Stable 0.9.12 improves Super Pedestrian results and method output presentation.",
   "notes": [
-    "Vehicle VIN decoding preserves all populated fields returned by NHTSA vPIC and presents curb weight, assembly plant, and full GVWR source values in vehicle details and reports. Missing curb weight remains missing; reference-specification weights are kept separate.",
-    "Vehicle lookup results and both vehicle reports include decoded vehicle details. An optional EPA fuel-economy lookup lets the user select a returned model/configuration; EPA ratings are labeled as configuration data and are not represented as a verified VIN match.",
-    "Preview Vehicle PDF and Preview VIN Report open the existing Letter-sized print preview without saving a file. Existing export actions remain available.",
-    "VIN-bound EPA selections clear when the VIN is edited, cleared, or decoded again.",
-    "Existing case tracking remains removed. Existing case files and backup folders are not deleted; this version does not open or save case files. Keep a prior portable version if archived case-file access is needed.",
-    "No reconstruction formula or numerical method changed. Existing safeguards remain, including the off-axis method marked \"Experimental - physical validation pending; not qualified for casework use.\"",
-    "The package retains the approved 0.9.10 set of 22 public reference/guidance documents with exact bytes; internal-only material remains excluded.",
-    "Focused source verification passed for the new VIN detail, EPA selection, report, and preview behavior. One existing offscreen layout assertion also fails against the pre-change 0.9.10 baseline.",
-    "This stable package is built from the verified 0.9.10 source snapshot plus the two VIN UI/service source files and stable release build metadata. The frozen app module comparison confirms only the VIN UI and vehicle lookup service modules differ.",
-    "Packaged startup, VIN/PDF workflows, updater download/discovery, local deployment and anonymous public asset hashes are verified as recorded in the release evidence.",
-    "Filename: CrashCalculationWorkbench-0.9.11-portable.zip",
-    "SHA-256: bfa3468f6b9600bbd6e58b87ffe72518f65ea4c33dc9ca67fcf1741b9198ba05"
+    "Super Pedestrian results show all eight method rows with clearer result formatting.",
+    "Results can be exported as a PDF or a text table; Show Work is grouped by method.",
+    "No reconstruction formula or numerical method changed. The off-axis method remains marked \"Experimental - physical validation pending; not qualified for casework use.\"",
+    "The package retains the approved 22 public reference/guidance documents with their existing bytes; internal-only material remains excluded.",
+    "Filename: CrashCalculationWorkbench-0.9.12-portable.zip",
+    "SHA-256: b9d5fbd971140d8ff67788ce566174591d8a4d0017b2ce26e16a40b8486df5f2"
   ],
-  "release_page_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/tag/v0.9.11",
-  "build_label": "v0.9.11 | stable | release | source 20fc45e-dirty | 2026-10-29 20:25:29 UTC",
+  "release_page_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/tag/v0.9.12",
+  "build_label": "v0.9.12 | stable | release | source 20fc45e-dirty | 2026-10-29 20:45:53 UTC",
   "build_commit": "20fc45e-dirty",
   "assets": [
     {
       "platform": "windows",
       "architecture": "x64",
-      "filename": "CrashCalculationWorkbench-0.9.11-portable.zip",
-      "browser_download_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/download/v0.9.11/CrashCalculationWorkbench-0.9.11-portable.zip",
-      "size": 143900664,
-      "sha256": "bfa3468f6b9600bbd6e58b87ffe72518f65ea4c33dc9ca67fcf1741b9198ba05",
+      "filename": "CrashCalculationWorkbench-0.9.12-portable.zip",
+      "browser_download_url": "https://github.com/gdowkpc/crash-calculation-workbench-releases/releases/download/v0.9.12/CrashCalculationWorkbench-0.9.12-portable.zip",
+      "size": 143904686,
+      "sha256": "b9d5fbd971140d8ff67788ce566174591d8a4d0017b2ce26e16a40b8486df5f2",
       "artifact_type": "portable"
     }
   ]
